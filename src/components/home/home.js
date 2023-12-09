@@ -10,7 +10,7 @@ export function Home() {
     useEffect(()=>{
         setChating(currentUserdata.contactList[0]);
         setUserdata(currentUserdata.contactList);
-    },[]); 
+    },[setChating,setUserdata]); 
     return (<>
         <div className="container">
             <LeftSidebar />

@@ -19,7 +19,7 @@ function App() {
     if (check === "true") {
       setIslogin(true);
     }
-  }, [])
+  }, [setIslogin])
   const router = createBrowserRouter([
     {
       path: '/chatme/',

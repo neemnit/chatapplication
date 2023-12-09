@@ -19,7 +19,7 @@ export function Login() {
           setIslogin(true);
           return Navigate("/chatme/");
         }
-      },[])
+      },[Navigate,setIslogin])
     const handleLogin = (e) => {
         e.preventDefault();
         if(email.current.value === "admin@gmail.com" && password.current.value === "admin123"){

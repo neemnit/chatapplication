@@ -1,7 +1,7 @@
 import { Contacts } from "./contacts/contact"
 import { user } from "../../../data/data"
 import "./leftsidebar.css"
-import { createRef, useEffect, useState } from "react";
+import { createRef,  useState } from "react";
 import styled from "styled-components";
 import { useUsersValue } from "../../../Context/userContext";
 import { LuLogOut } from "react-icons/lu";
