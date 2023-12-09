@@ -1,0 +1,45 @@
+.chating-container{
+    display: flex;
+    flex-direction: column;
+}
+.messages{
+    display: flex;
+    gap: 10px;
+    margin: 5px;
+    /* flex-direction: row-reverse; */
+}
+
+.messages img{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50px;
+}
+.messages span{
+    background-color: #4CAF50;
+    padding:10px;
+    max-width: 80%;
+    border-radius: 0px 10px 10px 10px;
+    /* border-radius: 10px 0px 10px 10px; */
+    overflow-wrap: break-word;
+}
+.me{
+    display: flex;
+    gap: 10px;
+    margin: 5px;
+    flex-direction: row-reverse;
+}
+.me img{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50px;
+}
+.me span{
+    background-color: #4CAF50;
+    padding:10px;
+    max-width: 80%;
+    /* border-radius: 0px 10px 10px 10px; */
+    border-radius: 10px 0px 10px 10px;
+    overflow-wrap: break-word;
+}

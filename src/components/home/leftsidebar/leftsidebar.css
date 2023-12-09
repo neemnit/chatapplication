@@ -1,0 +1,143 @@
+.left-sidebar{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid black;
+}
+.User-Navbar{
+    width: 100%;
+    height: 50px;
+    background-color: #4CAF50 ;
+    color:#FFF;
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.Heading{
+    flex: 6;
+    padding: 5px;
+}
+.User-Navbar button{
+    flex: 1;
+    width:40px;
+    height: 40px;
+    background-color: transparent;
+    color: white;
+    border-radius: 50px;
+    font-size: 2rem;
+    border: white;
+    cursor: pointer;
+}
+.User-Navbar img{
+    flex: 1;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+
+/* //Search box starts from here  */
+.SearchBox{
+    width: 100%;
+    height: 50px;
+}
+.SearchBox input{
+    width: 94%;
+    height: 35px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    &::placeholder{
+        color: grey;
+        font-size: 1rem;
+    }
+}
+/* Contact list starts from here  */
+
+.ContactList{
+    width: 100%;
+    overflow-y: scroll;
+}
+.ContactList::-webkit-scrollbar{
+    width: 10px;
+}
+.ContactList::-webkit-scrollbar-thumb{
+    background-color: rgb(15, 36, 17);
+    border-radius: 25px;
+}
+
+/* // add contact tab  */
+.Add-contact{
+    width: 30%;
+    height: 90%;
+    border: 2px solid black;
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+}
+.Heading-add-contact{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    background-color: #4CAF50;
+    justify-content: space-evenly;
+}
+.Heading-add-contact button{
+    background-color: transparent;
+    width: 80px;
+    height: 30px;
+    color: #FFF;
+    cursor: pointer;
+}
+.search-contact input{
+    width: 97%;
+    height: 30px;
+    padding: 5px;
+}
+.show-contact-list{
+    display: flex;
+    align-items: center;
+    width: 97%;
+    height: 50px;
+    padding: 5px;
+    background-color: whitesmoke;
+    margin-top: 2px;
+}
+.show-contact-list img{
+    flex:1;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50px;
+    gap: 10px;
+}
+.show-contact-list span{
+    flex:5;
+    padding-left: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.show-contact-list button{
+    flex:2;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    padding: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.show-contact-list:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.logout{
+    font-size: 1.2rem;
+    font-weight: bolder;
+    color: white;
+    padding: 2px;
+    margin: 0px 2px;
+}

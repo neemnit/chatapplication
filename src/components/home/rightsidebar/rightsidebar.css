@@ -1,0 +1,95 @@
+.right-sidebar{
+    flex:3;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.Chat-Navbar{
+    flex: 1;
+    width: 100%;
+    height: 60px;
+    background-color: #4CAF50 ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.contact-Information{
+    flex: 6;
+    display: flex;
+    align-items: center;
+    gap:10px;
+    margin-left: 20px;
+}
+.contact-Information img{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50px;
+}
+.contact-Information span{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.features{
+    flex: 2;
+    display: flex;
+    justify-content: space-around;
+}
+.features span{
+    font-size: 1.5rem;
+    color: black;
+    cursor: pointer;
+}
+
+/* chating box  */
+.Chating-box{
+    flex: 7;
+    width: 100%;
+    background-color: rgb(243, 234, 234);
+    overflow-y: scroll;
+}
+.Chating-box::-webkit-scrollbar{
+    width: 10px;
+}
+.Chating-box::-webkit-scrollbar-thumb{
+    background-color: black;
+    border-radius: 50px;
+}
+
+/* Message Typing Component  */
+.typing-box{
+    flex: 1;
+    width: 100%;
+    height: 25px;
+    display:flex;
+}
+.typing-box input{
+    flex: 5;
+    border: none;
+    outline: none;
+    padding: 5px;
+    padding-left: 10px;
+    &::placeholder{
+        color: black;
+        font-size: 16px;
+    }
+}
+.Sending-buttons{
+    flex:2;
+    display: flex;
+}
+.Sending-buttons label{
+    flex: 1;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Sending-buttons button{
+    flex: 2;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 1.5rem;
+    border: none;
+}
